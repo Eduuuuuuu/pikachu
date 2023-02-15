@@ -1,7 +1,17 @@
-header{
-    color: darkorange;
-    background-color: red;
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    font-family: 'Righteous', cursive;
+    color: #8E4106;
+
 }
+
+.logo__text{
+    font-size: 32px;
+    font-weight: 100;
+}
+
 *{
     margin: 0;
     padding: 0;
